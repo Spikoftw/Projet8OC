@@ -1,0 +1,38 @@
+.logement {
+  width: 100%;
+  font-family: Montserrat;
+  margin-bottom: 50px;
+}
+
+.logement__infos {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.logement__infos-left h1 {
+  color: #ff6060;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+}
+.logement__infos-left h2 {
+  color: #ff6060;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+}
+
+.logement__collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logement__collapse :first-child {
+  margin-right: 36px;
+}

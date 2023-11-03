@@ -1,0 +1,9 @@
+.rating {
+  font-size: 36px;
+  color: #e3e3e3;
+  margin-right: 10px;
+}
+
+.rating--is-colored {
+  color: #ff6060;
+}

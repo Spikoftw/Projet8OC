@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  padding: 50px 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  list-style-type: none;
+}
+
+.header__menu li a {
+  text-decoration: none;
+  list-style: none;
+  color: #ff6060;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+}
+
+.header__menu li a:hover {
+  text-decoration-line: underline;
+}

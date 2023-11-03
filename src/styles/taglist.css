@@ -1,0 +1,21 @@
+.tag-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-top: 13px;
+}
+
+.tag-list__item {
+  color: #fff;
+  display: block;
+  background-color: #ff6060;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 5px 40px;
+  margin-right: 10px;
+  margin-top: 20px;
+}

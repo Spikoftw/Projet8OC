@@ -1,0 +1,8 @@
+.about-collapse-container {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.about-collapse-container .collapse-container {
+  margin-top: 30px;
+}

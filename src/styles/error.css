@@ -1,0 +1,24 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  color: #ff6060;
+  font: Montserrat;
+  font-size: 288px;
+  text-align: center;
+}
+
+.error h2 {
+  margin: 0;
+}
+
+.error p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.error__Link {
+  color: #ff6060;
+  text-decoration: underline;
+  font-size: 16px;
+  margin-bottom: 100px;
+}

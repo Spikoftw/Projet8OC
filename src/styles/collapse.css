@@ -1,0 +1,51 @@
+.collapse-container {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+}
+
+.collapse-container__title {
+  background-color: #ff6060;
+  border-radius: 10px;
+  padding: 10px 20px 10px 15px;
+  color: white;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.collapse-container__title svg {
+  transition: 200ms;
+}
+
+.collapse-container__title--open svg {
+  rotate: 180deg;
+}
+
+.collapse-container__content {
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: height 2000ms;
+  width: 100%;
+  color: #ff6060;
+  font-size: 18px;
+  text-align: left;
+  padding: 0 20px;
+  /* max-width: 1023px; */
+  line-height: 142.6%;
+}
+
+.collapse-container__content p {
+  width: 100%;
+}
+
+.collapse-container__content ul {
+  width: 100%;
+}
+
+.collapse-container__content--hide {
+  height: 0px;
+}
