@@ -31,8 +31,6 @@ function Logement() {
     equipments,
   } = logementFound;
 
-  console.log("logementFound =>", logementFound);
-
   return (
     <section className="logement">
       <Carousel pictures={pictures} />

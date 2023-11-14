@@ -49,3 +49,15 @@
 .collapse-container__content--hide {
   height: 0px;
 }
+
+@media screen and (max-width: 500px) {
+  .collapse-container__title-txt {
+    color: #fff;
+
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+  }
+}

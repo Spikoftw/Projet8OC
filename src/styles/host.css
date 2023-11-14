@@ -1,7 +1,7 @@
 .host {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .host__name {
@@ -27,4 +27,15 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .host__name {
+    margin: 0;
+  }
+
+  .host__picture {
+    margin: 0;
+    margin-left: 10px;
+  }
 }

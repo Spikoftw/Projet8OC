@@ -7,3 +7,16 @@
 .rating--is-colored {
   color: #ff6060;
 }
+
+@media screen and (max-width: 500px) {
+  .rating {
+    width: 40%;
+    font-size: unset;
+  }
+
+  .rating svg {
+    height: 18px;
+    width: 25px;
+    margin: 0;
+  }
+}

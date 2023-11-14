@@ -6,3 +6,14 @@
 .about-collapse-container .collapse-container {
   margin-top: 30px;
 }
+
+@media screen and (max-width: 500px) {
+  .about-collapse-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-collapse-container .collapse-container {
+    margin-top: 20px;
+  }
+}

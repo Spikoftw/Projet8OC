@@ -36,3 +36,35 @@
 .logement__collapse :first-child {
   margin-right: 36px;
 }
+
+@media screen and (max-width: 500px) {
+  .logement__infos {
+    flex-direction: column;
+  }
+
+  .logement__collapse {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .logement__infos-left h1 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+  }
+
+  .logement__infos-left h2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+  }
+
+  .logement__infos-right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

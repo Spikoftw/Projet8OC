@@ -28,3 +28,24 @@
 .header__menu li a:hover {
   text-decoration-line: underline;
 }
+
+@media screen and (max-width: 500px) {
+  .header__menu {
+    width: 190px;
+  }
+
+  .header__menu li a {
+    font-size: 16px;
+  }
+
+  .header__logo {
+    width: 150px;
+  }
+  .header {
+    width: auto;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 27px;
+  }
+}

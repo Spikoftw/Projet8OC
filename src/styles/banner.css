@@ -37,3 +37,29 @@
   font-weight: 500;
   line-height: 142.6%; /* 68.448px */
 }
+
+@media screen and (max-width: 500px) {
+  .banner {
+    width: 100%;
+    height: 111px;
+    margin-bottom: 0;
+  }
+
+  .banner__title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: left;
+    padding-left: 16px;
+    text-wrap: balance;
+  }
+
+  .banner__img {
+    border-radius: 10px;
+  }
+
+  .banner__layer {
+    border-radius: 10px;
+  }
+}
