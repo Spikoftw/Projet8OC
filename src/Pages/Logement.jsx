@@ -53,7 +53,7 @@ function Logement() {
         <Collapse
           title="Equipements"
           content={equipments.map((part) => (
-            <span>
+            <span key={`span-${equipments + part}`}>
               {part} <br />
             </span>
           ))}

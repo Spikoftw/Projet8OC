@@ -9,6 +9,7 @@ const Rating = ({ rate }) => (
       .fill(0)
       .map((_, index) => (
         <FontAwesomeIcon
+          key={rate + index}
           className={`${index < rate ? "rating rating--is-colored" : "rating"}`}
           icon={faStar}
         />

@@ -5,7 +5,7 @@ const Host = ({ name, picture }) => (
   <div className="host">
     <h3 className="host__name">
       {name.split(" ").map((part) => (
-        <span>
+        <span key={name + part}>
           {part} <br />
         </span>
       ))}
