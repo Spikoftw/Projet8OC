@@ -4,8 +4,8 @@ import "../styles/host.css";
 const Host = ({ name, picture }) => (
   <div className="host">
     <h3 className="host__name">
-      {name.split(" ").map((part) => (
-        <span key={name + part}>
+      {name.split(" ").map((part, index) => (
+        <span key={name + index}>
           {part} <br />
         </span>
       ))}

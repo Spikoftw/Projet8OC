@@ -9,16 +9,11 @@ import bannerBkg from "../images/bannerimg.jpeg";
 function Home() {
   return (
     <>
-      {
-        <Banner
-          title="Chez vous, partout et ailleurs"
-          bannerImage={bannerBkg}
-        />
-      }
+      <Banner title="Chez vous, partout et ailleurs" bannerImage={bannerBkg} />
 
       <div className="cards-main">
-        {logements.map((logement) => (
-          <Link key={logement.id} to={`/logement/${logement.id}`}>
+        {logements.map((logement, index) => (
+          <Link key={index} to={`/logement/${logement.id}`}>
             <Card title={logement.title} image={logement.cover} />
           </Link>
         ))}

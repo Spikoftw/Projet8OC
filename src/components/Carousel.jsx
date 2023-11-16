@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../styles/carousel.css";
-import CarouselImg from "./CarouselImg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
@@ -9,6 +8,7 @@ import {
 
 const Carousel = ({ pictures }) => {
   const [current, setCurrent] = useState(0);
+
   const picturesAmount = pictures.length;
 
   const prevPicture = () => {
@@ -24,7 +24,11 @@ const Carousel = ({ pictures }) => {
   return (
     <div className="carousel">
       <div className="carousel__content">
-        <CarouselImg src={pictures[current]} />
+        <img
+          className="carousel-img"
+          alt={`Carrousel #${current + 1}`}
+          src={pictures[current]}
+        />
       </div>
 
       {showButtons && (
