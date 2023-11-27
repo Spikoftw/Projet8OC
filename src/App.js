@@ -1,4 +1,4 @@
-// Pas dispo partout dans l'App {
+// Pas dispo partout dans l'App
 // Les dépendances
 import { Route, Routes } from "react-router-dom";
 
@@ -11,15 +11,14 @@ import Error from "./Pages/Error";
 // Les composants
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-// }
+//
 
-// Dispo partout dans l'app {
+// Dispo partout dans l'app
 // Le CSS
 import "./App.css";
 import "./styles/app.css";
 import "./styles/footer.css";
 import "./styles/header.css";
-// }
 
 function App() {
   return (
@@ -29,7 +28,6 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* useparams pour récupérer l'id */}
             <Route path="/logement/:id" element={<Logement />} />
             <Route path="/About/" element={<About />} />
             <Route path="/*" element={<Error />} />
